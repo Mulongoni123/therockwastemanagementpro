@@ -355,6 +355,41 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+# Build directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache and temp files
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.cache
+*.log
+
+# Build results
+*.dll
+*.exe
+*.pdb
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.tmp
+*.old
+
+# Publish files
+publish/
+
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
